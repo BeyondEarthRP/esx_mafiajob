@@ -7,8 +7,8 @@ Config.EnablePlayerManagement     = true
 Config.EnableArmoryManagement     = true
 Config.EnableESXIdentity          = true -- only turn this on if you are using esx_identity
 Config.EnableNonFreemodePeds      = false -- turn this on if you want custom peds
-Config.EnableSocietyOwnedVehicles = false
-Config.EnableLicenses             = false
+Config.EnableSocietyOwnedVehicles = true
+Config.EnableLicenses             = true
 Config.MaxInService               = -1
 Config.Locale                     = 'en'
 
@@ -17,7 +17,7 @@ Config.MafiaStations = {
   Mafia = {
 
     Blip = {
---      Pos     = { x = 425.130, y = -979.558, z = 30.711 },
+      Pos     = { x = 425.130, y = -979.558, z = 30.711 },
       Sprite  = 60,
       Display = 4,
       Scale   = 1.2,
